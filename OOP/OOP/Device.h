@@ -31,12 +31,12 @@ private:
 
 
 public:
-	std::string getOS();
-	bool isActive();
-	void activate();
+	std::string getOS() const;
+	bool isActive() const;
+	void activate() ;
 	void deactivate();
 	void init(unsigned int id, DeviceType type, std::string os);
-	unsigned int getID();
-	DeviceType getType();
+	unsigned int getID() const;
+	DeviceType getType() const;
 
 };
