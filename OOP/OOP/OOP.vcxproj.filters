@@ -20,7 +20,16 @@
     <ClCompile Include="User.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test1Device.cpp">
+    <ClCompile Include="Page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test3Profile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,6 +41,15 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="DeviceList.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserList.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
