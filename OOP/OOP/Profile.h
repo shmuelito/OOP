@@ -1,6 +1,8 @@
+#pragma once
 #include <string>
 #include "UserList.h"
-#include "Page.h";
+#include "Page.h"
+
 class Profile
 {
 private:

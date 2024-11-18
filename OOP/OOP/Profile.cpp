@@ -59,7 +59,7 @@ std::string Profile::getFriendsWithSameNameLength() const
 {
 	int user_Name_Size = _user.getUserName().length();
 	std::string friends_Same_Lenght = "";
-	int friends_Lemght = 0;
+
 	UserNode* curr = _List_Of_Friends.get_first();
 	while (curr)
 	{
@@ -69,8 +69,8 @@ std::string Profile::getFriendsWithSameNameLength() const
 		}
 		curr = curr->get_next();
 	}
-	friends_Lemght = friends_Same_Lenght.length();
-	if(friends_Lemght >= 1)
+	if (!friends_Same_Lenght.empty())
 		friends_Same_Lenght.pop_back();
+
 	return friends_Same_Lenght;
 }
